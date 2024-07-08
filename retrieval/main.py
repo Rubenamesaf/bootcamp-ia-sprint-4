@@ -28,6 +28,8 @@ from retrieval.indexing_pipeline_utils import create_docs_to_embedd
 
 CACHE_PATH = Path(__file__).parent / ".cache"
 
+#KLK
+
 
 def load_embedder(config: RetrievalExpsConfig) -> HuggingFaceEmbeddings:
     encode_kwargs = {"normalize_embeddings": config.normalize_embeddings}
